@@ -13,7 +13,7 @@ Generates a README file from user terminal input.
 - [Usage](#usage)
 - [License](#License)
 - [Contributions](#contributions)
-- [Tests](#tests)
+- [Links](#links)
 - [Credits](#credits)
 - [Questions](#questions)
 
@@ -31,9 +31,11 @@ This application runs in the terminal to generate a professional README for GitH
 
 Once you have cloned the repository to your system, run an 'npm i' to install the node modules.
 
+In the index.js file, you can change the default values on line 51, 71, 88, and 94 as required, or enter your own values when you are prompted.
+
 ## [Usage](#table-of-contents)
 
-In your terminal, execute the 'node index.js' command. 
+In your terminal, execute the 'node index.js' command.
 
 Answer the prompts appropriately, and the application will produce a readme in the "output" folder.
 
@@ -46,6 +48,10 @@ https://choosealicense.com/licenses/mit/
 ## [Contributions](#table-of-contents)
 
 Fork this repository, then clone it.
+
+## [Links](#table-of-contents)
+
+This project does not have a deployed page, since it is run in the terminal.
 
 ## [Credits](#table-of-contents)
 

@@ -1,63 +1,65 @@
 
-  # Sample
+# Sample
 
-  ![badge](https://img.shields.io/badge/License-MIT%20License-blue.svg)
+![badge](https://img.shields.io/badge/License-MIT%20License-blue.svg)
 
-  ## Table-of-Contents
+## Table-of-Contents
 
-  * [Description](#description)
-  * [Screenshots](#screenshots)
-  * [Demonstration](#demonstration)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#License)
-  * [Contributions](#contributions)
-  * [Tests](#tests)
-  * [Credits](#credits)
-  * [Questions](#questions)
+* [Description](#description)
+* [Screenshots](#screenshots)
+* [Demonstration](#demonstration)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#License)
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [Credits](#credits)
+* [Questions](#questions)
   
-  ## [Description](#table-of-contents)
+## [Description](#table-of-contents)
 
-  Description
+Description
 
-  ## [Screenshots](#table-of-contents)
+## [Screenshots](#table-of-contents)
 
-  (add screenshot links here)
+(add screenshot links here)
 
-  ## [Demonstration](#table-of-contents)
+## [Demonstration](#table-of-contents)
   
-  (add demonstration video here)
+(add demonstration video here)
 
-  ## [Installation](#table-of-contents)
+## [Installation](#table-of-contents)
 
-  Installation
+Installation
 
-  ## [Usage](#table-of-contents)
+## [Usage](#table-of-contents)
 
-  Usage
+Usage
 
-  ## [License](#table-of-contents)
+
+## [License](#table-of-contents)
         
-  The application is covered under the following license:
+The application is covered under the following license:
         
-  https://choosealicense.com/licenses/mit/
+https://choosealicense.com/licenses/mit/
 
-  ## [Contributions](#table-of-contents)
 
-  Fork this repository, then clone it.
+## [Contributions](#table-of-contents)
 
-  ## [Tests](#table-of-contents)
+Fork this repository, then clone it.
 
-  Testing
+## [Tests](#table-of-contents)
 
-  ## [Credits](#table-of-contents)
+Testing
 
-  Credits
+## [Credits](#table-of-contents)
 
-  ## [Questions](#table-of-contents)
+Credits
 
-  Please contact me with any questions using the following links:
+## [Questions](#table-of-contents)
 
-  Github: https://github.com/MelissaCade
+Please contact me with any questions using the following links:
 
-  Email: melissascade@gmail.com
+Github: https://github.com/MelissaCade
+
+Email: melissascade@gmail.com

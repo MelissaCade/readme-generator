@@ -38,11 +38,13 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "no license") {
-    return `## [License](#table-of-contents)
+    return `
+## [License](#table-of-contents)
         
-  The application is covered under the following license:
+The application is covered under the following license:
         
-  ${renderLicenseLink(license)}`;
+${renderLicenseLink(license)}
+`;
   } else {
     return "";
   }
@@ -59,64 +61,69 @@ function RenderLicenseToC(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title}
+# ${data.title}
 
-  ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
 
-  ## Table-of-Contents
+## Table-of-Contents
 
-  * [Description](#description)
-  * [Screenshots](#screenshots)
-  * [Demonstration](#demonstration)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  ${RenderLicenseToC(data.license)}
-  * [Contributions](#contributions)
-  * [Tests](#tests)
-  * [Credits](#credits)
-  * [Questions](#questions)
+* [Description](#description)
+* [Screenshots](#screenshots)
+* [Demonstration](#demonstration)
+* [Installation](#installation)
+* [Usage](#usage)
+${RenderLicenseToC(data.license)}
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [Links](#links)
+* [Credits](#credits)
+* [Questions](#questions)
   
-  ## [Description](#table-of-contents)
+## [Description](#table-of-contents)
 
-  ${data.description}
+${data.description}
 
-  ## [Screenshots](#table-of-contents)
+## [Screenshots](#table-of-contents)
 
-  (add screenshot links here)
+(add screenshot links here)
 
-  ## [Demonstration](#table-of-contents)
+## [Demonstration](#table-of-contents)
   
-  (add demonstration video here)
+(add demonstration video here)
 
-  ## [Installation](#table-of-contents)
+## [Installation](#table-of-contents)
 
-  ${data.installation}
+${data.installation}
 
-  ## [Usage](#table-of-contents)
+## [Usage](#table-of-contents)
 
-  ${data.usage}
+${data.usage}
 
-  ${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
 
-  ## [Contributions](#table-of-contents)
+## [Contributions](#table-of-contents)
 
-  ${data.contributions}
+${data.contributions}
 
-  ## [Tests](#table-of-contents)
+## [Tests](#table-of-contents)
 
-  ${data.tests}
+${data.tests}
 
-  ## [Credits](#table-of-contents)
+## [Links](#table-of-contents)
 
-  ${data.credits}
+${data.page}
 
-  ## [Questions](#table-of-contents)
+## [Credits](#table-of-contents)
 
-  Please contact me with any questions using the following links:
+${data.credits}
 
-  Github: https://github.com/${data.ghUsername}
+## [Questions](#table-of-contents)
 
-  Email: ${data.email}
+Please contact me with any questions using the following links:
+
+Github: https://github.com/${data.ghUsername}
+
+Email: ${data.email}
 `;
 }
 
