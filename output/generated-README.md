@@ -1,7 +1,7 @@
 
   # Sample
 
-  ![badge](https://img.shields.io/badge/License-${data.license}-blue.svg)
+  ![badge](https://img.shields.io/badge/License-MIT%20License-blue.svg)
 
   ## Table-of-Contents
 
@@ -38,9 +38,9 @@
 
   ## [License](#table-of-contents)
         
-    The application is covered under the following license:
+  The application is covered under the following license:
         
-    https://choosealicense.com/licenses/mit/
+  https://choosealicense.com/licenses/mit/
 
   ## [Contributions](#table-of-contents)
 
@@ -58,6 +58,6 @@
 
   Please contact me with any questions using the following links:
 
-  Github: (https://github.com/MelissaCade)
+  Github: https://github.com/MelissaCade
 
   Email: melissascade@gmail.com

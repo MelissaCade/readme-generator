@@ -2,7 +2,9 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== "no license") {
-    return `![badge](https://img.shields.io/badge/License-${data.license}-blue.svg)`;
+    return `![badge](https://img.shields.io/badge/License-${encodeURI(
+      license
+    )}-blue.svg)`;
   } else {
     return "";
   }
@@ -38,9 +40,9 @@ function renderLicenseSection(license) {
   if (license !== "no license") {
     return `## [License](#table-of-contents)
         
-    The application is covered under the following license:
+  The application is covered under the following license:
         
-    ${renderLicenseLink(license)}`;
+  ${renderLicenseLink(license)}`;
   } else {
     return "";
   }
@@ -112,7 +114,7 @@ function generateMarkdown(data) {
 
   Please contact me with any questions using the following links:
 
-  Github: (https://github.com/${data.ghUsername})
+  Github: https://github.com/${data.ghUsername}
 
   Email: ${data.email}
 `;
