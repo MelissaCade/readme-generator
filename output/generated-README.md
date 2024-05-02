@@ -1,7 +1,7 @@
 
   # Sample
 
-  ![badge](https://img.shields.io/badge/License-${license}-blue.svg)
+  ![badge](https://img.shields.io/badge/License-${data.license}-blue.svg)
 
   ## Table-of-Contents
 
@@ -30,11 +30,11 @@
 
   ## [Installation](#table-of-contents)
 
-  install
+  Installation
 
   ## [Usage](#table-of-contents)
 
-  usage
+  Usage
 
   ## [License](#table-of-contents)
         
@@ -48,16 +48,16 @@
 
   ## [Tests](#table-of-contents)
 
-  testing
+  Testing
 
   ## [Credits](#table-of-contents)
 
-  credits
+  Credits
 
   ## [Questions](#table-of-contents)
 
   Please contact me with any questions using the following links:
 
-  [GitHub](https://github.com/MelissaCade)
+  Github: (https://github.com/MelissaCade)
 
-  [email: melissascade@gmail.com](mailto:melissascade@gmail.com)
+  Email: melissascade@gmail.com
